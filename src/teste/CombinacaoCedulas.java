@@ -20,18 +20,18 @@ public class CombinacaoCedulas {
 		for (int i=0; i<50; i++) {
 			Integer contCedulasDistintas = 0;
 			String aux = new String();
-			opcoesDisponiveis = buscaCombinacaoCedulas(270, cedulas);		
+			opcoesDisponiveis = buscaCombinacaoCedulas(120, cedulas);		
 			
 			for (Integer[] qCedulas : opcoesDisponiveis) {
 				contCedulasDistintas++;
-			//	System.out.print(qCedulas[0] + "x R$" + qCedulas[1] + ",00 ");
+				System.out.print(qCedulas[0] + "x R$" + qCedulas[1] + ",00 ");
 				aux += qCedulas[0] + "x R$" + qCedulas[1] + ",00 ";
 			}
 			if (!listaAux.contains(aux) && contCedulasDistintas <= 3) {
 				lista.add(opcoesDisponiveis);
 				listaAux.add(aux);
 			}
-		//	System.out.println();
+			System.out.println();
 		}
 		
 		System.out.println("List: "+lista.size());
