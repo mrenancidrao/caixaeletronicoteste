@@ -1,4 +1,5 @@
-# Caixa Eletrônico - Sistema para gerenciar as funcionalidades de saque e reabastecimento de estoque de cédulas de um caixa eletrônico.
+# Caixa Eletrônico
+- Sistema para gerenciar as funcionalidades de saque e reabastecimento de estoque de cédulas de um caixa eletrônico.
 
 # 🚨 Requisitos
 
